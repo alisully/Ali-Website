@@ -1,0 +1,211 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.2.2
+*/
+/* for all templates and grids */
+body{text-align:center; color:#8ea69b; background-color:white}
+#ft{clear:both;}
+
+h1 {
+    font-family:'Cormorant Garamond';
+    font-weight:Bold 700;
+    font-size: 80px;
+    color: black;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 0px
+}
+
+h2 {
+    font-family:'Montserrat';
+    font-weight:200;
+    font-size: 25px;
+    color: black;
+    padding-bottom: 15px;
+    padding-top: 2px
+}
+
+h3 {
+    font-family:'Montserrat';
+    font-weight:Extra-light 200;
+    font-size: 20px;
+    color: black;
+    margin: 14px;
+}
+
+h4 {
+    font-family:'Cormorant Garamond';
+    font-weight:Light 300;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    padding-top: 130px;
+}
+
+h6 {
+    font-family:'Cormorant Garamond';
+    font-weight:Light 300;
+    font-size: 50px;
+    color: black;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 20px
+}
+    
+p {
+    font-family:'Montserrat';
+    font-weight: Light 300;
+    font-size: 20px;
+    color: black;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align:left
+}
+
+p1 {
+    font-family:'Montserrat';
+    font-weight: Light 300;
+    font-size: 20px;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align:center
+}
+
+p2 {
+    font-family:'Montserrat';
+    font-weight: Light 300;
+    font-size: 14px;
+    color: black;
+    text-align:right;
+    padding-top:15px
+}
+
+h5 {
+   font-family:'Montserrat';
+    font-weight: Light 300;
+    font-size: 18px;
+    color: black;
+    padding-left: 90px;
+    padding-right: 70px;
+    text-align:left 
+}
+.topnav {
+    font-size:20px;
+    color:dimgrey;
+    border: 1px solid gray;
+    overflow: hidden;
+    background-color: #8ea69b;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f5f5f5;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+    font-family:'Montserrat';
+    font-size: 20px
+    
+
+}
+
+.topnav a:hover {
+  background: #f5f5f5;
+  color: #8ea69b;
+}
+
+.main {
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
+}
+    
+#contact {font-size:20px}
+
+.button {
+  background-color: white;
+  border: 2px solid gray;
+  color: #8ea69b;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    font-family:"Montserrat";
+    border-radius:4px
+}
+.button1 {
+    background-color:#f5f5f5;
+    border: 2px solid #8ea69b;
+    color: #8ea69b;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button {
+  transition-duration: 0.4s;
+}
+
+.button:hover {
+  background-color: #f5f5f5; /* Green */
+  color: #8ea69b;
+}
+
+.container {
+    display:flex
+}
+
+.column {
+    flex:3
+}
+
+img.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  padding-top: 135px;
+  filter: grayscale(100%);
+}
+
+.green-column {
+    background-color:#8ea69b;
+    height: 1700px;
+    position:sticky;
+    top:0;
+    padding-top:0
+        
+}
+
+div.clips_buttons {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+div.clips_button.button {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+footer {
+    background-color: white;
+    text-align:right;
+    padding-top:30px;
+    padding-right:20px
+}
+
+p.clips {
+    padding-top: 10px;
+    font-size: 28px;
+}
+
+img.contact_image {
+    padding-top: 100px
+}
